@@ -47,6 +47,7 @@ const Navbar = () => {
             ? "bg-white border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
             : "bg-gray-700 border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
         }
+        style={darkMode ? {} : { background: "#091618" }}
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
           <div className="flex items-center cursor-pointer">
@@ -88,13 +89,13 @@ const Navbar = () => {
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
                 <img
-                  src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-sun-lighting-flaticons-flat-flat-icons.png"
+                  src="./sun.jpg"
                   className="w-6 ml-6 cursor-pointer hover:scale-1.50 block"
                   alt=""
                 />
               ) : (
                 <img
-                  src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-moon-astrology-and-symbology-prettycons-lineal-color-prettycons.png"
+                  src="moon.png"
                   className="w-6 ml-6 cursor-pointer hover:scale-1.50 block"
                   alt=""
                 />
@@ -106,13 +107,13 @@ const Navbar = () => {
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
                 <img
-                  src="https://img.icons8.com/external-flaticons-flat-flat-icons/64/000000/external-sun-lighting-flaticons-flat-flat-icons.png"
+                  src="./sun.jpg"
                   className="w-6 mr-4 cursor-pointer hover:scale-1.50 block"
                   alt=""
                 />
               ) : (
                 <img
-                  src="https://img.icons8.com/external-prettycons-lineal-color-prettycons/49/000000/external-moon-astrology-and-symbology-prettycons-lineal-color-prettycons.png"
+                  src="./moon.png"
                   alt=""
                   className="w-6 mr-4 cursor-pointer hover:scale-1.50 block"
                 />

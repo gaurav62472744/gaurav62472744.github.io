@@ -13,6 +13,7 @@ const Contact = () => {
           ? "bg-gray-100  md:h-screen"
           : "bg-black  text-white md:h-screen"
       }
+      style={darkMode ? {} : { background: "#091618" }}
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
@@ -138,7 +139,7 @@ const Contact = () => {
       <div
         className={
           darkMode
-            ? "w-full bg-white text-black text-lg py-3 flex justify-center md:mt-20"
+            ? "w-full bg-white text-black text-lg py-3 flex justify-center md:mt-20 "
             : "w-full bg-gray-900 text-white text-lg py-3 flex justify-center md:mt-20"
         }
       >

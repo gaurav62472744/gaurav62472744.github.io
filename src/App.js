@@ -3,7 +3,7 @@ import Contact from "./views/Contact";
 import Navbar from "./components/Navbar";
 import About from "./views/About";
 import Home from "./views/Home";
-import Skills from "./views/Services";
+import Skills from "./views/Skills";
 import Projects from "./views/Projects";
 import LoadingScreen from "./components/LoadingScreen";
 import { ThemeProvider } from "./themeProvider";
