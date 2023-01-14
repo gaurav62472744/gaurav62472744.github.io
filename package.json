@@ -1,5 +1,5 @@
 {
-  "homepage": ".",
+  "homepage": "https://gaurav62472744.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "hamburger-react": "^2.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-github-calendar": "^3.4.0",
     "react-native-typical": "^1.1.2",
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
