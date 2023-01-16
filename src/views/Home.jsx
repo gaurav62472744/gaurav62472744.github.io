@@ -34,7 +34,7 @@ const Home = () => {
             className="sm:text-center lg:text-left"
             fontFamily={"Neue-Helvetica, Helvetica, Arial, sans-serif"}
           >
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl md:mt-50">
+            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl mt-200 md:text-6xl mt-100">
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
@@ -123,7 +123,7 @@ const Home = () => {
               "https://user-images.githubusercontent.com/110033104/211527567-5388e558-fc89-46b5-9602-50ebacb7e133.png"
             }
             alt=""
-            className="md:w-3/6 hidden sm:block"
+            className="md:w-3/6 mt-10"
           />
         </main>
       </div>

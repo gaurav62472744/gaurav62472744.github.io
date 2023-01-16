@@ -43,7 +43,7 @@ const About = () => {
               ⚡I'm definitely looking for better, and more importantly, ethical
               and accessible ways to solve common day-to-day problems.
             </p>
-            <p
+            {/* <p
               className={
                 darkMode
                   ? "mt-4 text-xl text-justify text-gray-500"
@@ -52,7 +52,7 @@ const About = () => {
             >
               ⚡I enjoy developing websites and a keen interest in solving
               problems and coming up with effective solutions.
-            </p>
+            </p> */}
             <p
               className={
                 darkMode

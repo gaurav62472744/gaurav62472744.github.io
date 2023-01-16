@@ -20,51 +20,6 @@ const Skills = () => {
           Skills
         </h2>
         <div>
-          {/* <motion.div>
-            <h4 className="mt-12 text-3xl font-semibold text-blue-500">
-              A bit about me
-            </h4>
-            <p
-              className={
-                darkMode
-                  ? "mt-4 text-xl text-justify text-gray-500"
-                  : "mt-4 text-xl text-justify text-white"
-              }
-            >
-              ⚡I am a Full Stack Web Developer from Masai School with
-              proficient skills in the tech industry.
-            </p>
-            <p
-              className={
-                darkMode
-                  ? "mt-4 text-xl text-justify text-gray-500"
-                  : "mt-4 text-xl text-justify text-white"
-              }
-            >
-              ⚡I'm definitely looking for better, and more importantly, ethical
-              and accessible ways to solve common day-to-day problems.
-            </p>
-            <p
-              className={
-                darkMode
-                  ? "mt-4 text-xl text-justify text-gray-500"
-                  : "mt-4 text-xl text-justify text-white"
-              }
-            >
-              ⚡I enjoy developing websites and a keen interest in solving
-              problems and coming up with effective solutions.
-            </p>
-            <p
-              className={
-                darkMode
-                  ? "mt-4 text-xl text-justify text-gray-500"
-                  : "mt-4 text-xl text-justify text-white"
-              }
-            >
-              ⚡Experience in working on multiple Backened platforms like
-              Node-JS, Express-JS, MongoDB.
-            </p>
-          </motion.div> */}
           <motion.div>
             <h4 className="mt-20 text-3xl font-semibold text-blue-500">
               Technologies and Tools
@@ -109,18 +64,28 @@ const Skills = () => {
                 ? "text-5xl font-bold px-4 md:px-0 text-center"
                 : "text-5xl font-bold px-4 md:px-0 text-center text-white"
             }
+            style={{ marginTop: "50px" }}
           >
             Github Contribution
           </h2>
           <div
             style={{
-              marginTop: "50px",
+              paddingTop: "50px",
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              width: "90%",
+              margin: "auto",
             }}
           >
-            <GitHubCalendar username="gaurav62472744" />
+            <GitHubCalendar
+              style={{
+                border: "1px solid grey",
+                padding: "15px",
+                color: "#3b82f6",
+              }}
+              username="gaurav62472744"
+            />
           </div>
         </div>
       </div>
