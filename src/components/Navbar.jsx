@@ -85,6 +85,18 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
+              <li>
+                <a
+                  className={
+                    darkMode
+                      ? "block py-2 px-3 text-black hover:bg-blue-500 hover:text-white rounded-md"
+                      : "block py-2 px-3 text-white hover:bg-blue-500 hover:text-black rounded-md"
+                  }
+                  href="https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
@@ -161,6 +173,18 @@ const Navbar = () => {
                   <li>{el.name}</li>
                 </Link>
               ))}
+              <li>
+                <a
+                  className={
+                    darkMode
+                      ? "block py-2 px-3 text-black hover:bg-blue-500 hover:text-white rounded-md"
+                      : "block py-2 px-3 text-white hover:bg-blue-500 hover:text-black rounded-md"
+                  }
+                  href="https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </motion.div>
         )}

@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
 // import cloud from "../assets/cloudBg.png";
 // import cloudDark from "../assets/cloudDark.png";
+import PDF from "../assets/Gaurav_Singh_Resume.pdf";
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -80,11 +81,15 @@ const Home = () => {
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 <a
                   className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
-                  href="https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view?usp=share_link"
+                  // href="https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view?usp=share_link"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <p style={{ fontSize: "26px" }}>Resume</p>
+                  <p style={{ fontSize: "26px" }}>
+                    <a href={PDF} download={"Gaurav_Singh_Resume.pdf"}>
+                      Resume
+                    </a>
+                  </p>
                 </a>
               </div>
             </div>
