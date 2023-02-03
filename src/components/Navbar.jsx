@@ -85,7 +85,7 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-              <li>
+              {/* <li>
                 <a
                   className={
                     darkMode
@@ -96,7 +96,7 @@ const Navbar = () => {
                 >
                   Resume
                 </a>
-              </li>
+              </li> */}
             </ul>
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
@@ -173,7 +173,7 @@ const Navbar = () => {
                   <li>{el.name}</li>
                 </Link>
               ))}
-              <li>
+              {/* <li>
                 <a
                   className={
                     darkMode
@@ -184,7 +184,7 @@ const Navbar = () => {
                 >
                   Resume
                 </a>
-              </li>
+              </li> */}
             </ul>
           </motion.div>
         )}

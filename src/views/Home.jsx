@@ -28,14 +28,14 @@ const Home = () => {
         }
       >
         <main
-          className="mx-auto max-w-7xl px-4 sm:px-6 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
+          className="mx-auto max-w-7xl px-4 sm:px-6 mt-200 md:mt-0 lg:px-8 flex flex-col md:flex-row items-center justify-center md:justify-between h-screen"
           id="/"
         >
           <div
             className="sm:text-center lg:text-left"
             fontFamily={"Neue-Helvetica, Helvetica, Arial, sans-serif"}
           >
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl mt-200 md:text-6xl mt-100">
+            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl mt-200 md:text-6xl mt-100 ">
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
@@ -53,7 +53,7 @@ const Home = () => {
                     "Full Stack Developer",
                     3000,
                   ]}
-                  loop={Infinity}
+                  loop={20}
                 />
               </span>
             </h1>
