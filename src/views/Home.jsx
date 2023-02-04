@@ -22,7 +22,7 @@ const Home = () => {
                 backgroundSize: "cover",
               }
             : {
-                backgroundImage: `url('https://www.teahub.io/photos/full/178-1780190_dark-clouds-with-moon.jpg'`,
+                backgroundImage: `url('https://www.teahub.io/photos/full/178-1780190_dark-clouds-with-moon.jpg')`,
                 backgroundSize: "cover",
               }
         }
