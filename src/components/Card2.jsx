@@ -15,7 +15,10 @@ const Card2 = () => {
       style={{ background: "#091618" }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="https://transcendent-kashata-84d9de.netlify.app/">
+      <a
+        href="https://transcendent-kashata-84d9de.netlify.app/"
+        target="_blank"
+      >
         <img
           style={{ padding: "20px" }}
           class="rounded-t-lg w-full"
@@ -56,6 +59,7 @@ const Card2 = () => {
         >
           <a
             href="https://transcendent-kashata-84d9de.netlify.app/"
+            target="_blank"
             class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <FaExternalLinkAlt />
@@ -63,6 +67,7 @@ const Card2 = () => {
           </a>
           <a
             href="https://github.com/gaurav62472744/lumpy-friend-4776"
+            target="_blank"
             class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
             <BsGithub />
