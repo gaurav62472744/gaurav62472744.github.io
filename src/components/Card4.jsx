@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaExternalLinkAlt } from "react-icons/fa";
+import { BsGithub } from "react-icons/bs";
 
 const Card4 = () => {
   return (
@@ -13,7 +15,7 @@ const Card4 = () => {
       style={{ background: "#091618" }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="hello">
+      <a href="https://snazzy-naiad-622c57.netlify.app/">
         <img
           style={{ padding: "20px" }}
           class="rounded-t-lg w-full"
@@ -23,15 +25,15 @@ const Card4 = () => {
       </a>
       <div class="p-5">
         <a href="helo">
-          <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
             MeanBuy.com
           </h5>
         </a>
-        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        <p class="mb-3 font-normal text-white dark:text-gray-400">
           This is an largest E-commerce site where customers can sell and buy
           their products from any where in the world.
         </p>
-        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
           Teck-stack
         </h5>
         <div style={{ display: "flex", justifyContent: "space-around" }}>
@@ -54,14 +56,16 @@ const Card4 = () => {
         >
           <a
             href="https://snazzy-naiad-622c57.netlify.app/"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
+            <FaExternalLinkAlt />
             Demo Link
           </a>
           <a
             href="https://github.com/rohit1469/puffy-umbrella-7608"
-            class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
+            <BsGithub />
             Github
           </a>
         </div>

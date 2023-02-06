@@ -29,6 +29,10 @@ const Navbar = () => {
       name: "Contact",
       route: "contact",
     },
+    // {
+    //   name: "Resume",
+    //   route: "resume",
+    // },
   ];
 
   function toggleTheme() {

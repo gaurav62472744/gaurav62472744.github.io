@@ -53,12 +53,12 @@ const Contact = () => {
               </div>
               <div className="mb-4">
                 {/* <h1 className="text-3xl font-bold">Phone</h1>
-            <a
-              href="hello"
-              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
-            >
-              +91 8285631499
-            </a> */}
+                <a
+                  href="hello"
+                  className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+                >
+                  +91 9099745122
+                </a> */}
                 <label
                   for="email"
                   class={
@@ -116,13 +116,17 @@ const Contact = () => {
               +91 8285631499
             </a> */}
             <h1 className="text-3xl font-bold">Email</h1>
-            <a href="hello" className="mb-12 mt-4 font-semibold text-blue-700 ">
+            <a href="hello" className="mb-12 mt-3 font-semibold text-blue-700 ">
               anu62472744@gmail.com
+            </a>
+            <h1 className="text-3xl font-bold">Mobile</h1>
+            <a href="hello" className="mb-12 mt-3 font-semibold text-blue-700 ">
+              +91 9099745122
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="hello"
-              className="mt-4  mb-12 md:text-right font-semibold text-blue-700 "
+              className="mt-3  mb-12 md:text-right font-semibold text-blue-700 "
             >
               Surat, Gujarat
               <br />
@@ -133,7 +137,7 @@ const Contact = () => {
               {contactLinks.map((el) => (
                 <a
                   href={el.link}
-                  className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-4 hover:scale-125 flex flex-col justify-center items-center"
+                  className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-3 hover:scale-125 flex flex-col justify-center items-center"
                 >
                   <img alt="" src={el.url} width="40px" height="40px" />
                   {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}

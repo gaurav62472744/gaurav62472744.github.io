@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 // import { Link } from "react-scroll";
 // import cloud from "../assets/cloudBg.png";
 // import cloudDark from "../assets/cloudDark.png";
+import { FaDownload } from "react-icons/fa";
 import PDF from "../assets/Gaurav_Singh_Resume.pdf";
 
 const Home = () => {
@@ -32,31 +33,36 @@ const Home = () => {
           id="/"
         >
           <div
-            className="sm:text-center lg:text-left"
+            className="sm:text-center  lg:text-left"
             fontFamily={"Neue-Helvetica, Helvetica, Arial, sans-serif"}
           >
-            <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl mt-200 md:text-6xl mt-100 ">
-              <motion.span
-                className={darkMode ? "block text-black" : " text-white"}
+            <div className="sm:mt-100px">
+              <h1
+                style={{ marginTop: "70px" }}
+                className="text-4xl tracking-tight font-bold text-gray-900 sm:text-5xl mt-200 md:text-6xl mt-100 sm:mt-100px"
               >
-                Hello, I'm Gaurav Singh
-              </motion.span>
-              <span className="block text-blue-500 z-0 lg:inline">
-                <Typical
-                  steps={[
-                    "Front End Develper",
-                    2000,
-                    "Full Stack Developer",
-                    2000,
-                    "Front End Developer",
-                    3000,
-                    "Full Stack Developer",
-                    3000,
-                  ]}
-                  loop={20}
-                />
-              </span>
-            </h1>
+                <motion.span
+                  className={darkMode ? " text-black " : " text-white "}
+                >
+                  Hello, I'm Gaurav Singh
+                </motion.span>
+                <span className=" text-blue-500 z-0 lg:inline">
+                  <Typical
+                    steps={[
+                      "Front End Develper",
+                      2000,
+                      "Full Stack Developer",
+                      2000,
+                      "Front End Developer",
+                      3000,
+                      "Full Stack Developer",
+                      3000,
+                    ]}
+                    loop={20}
+                  />
+                </span>
+              </h1>
+            </div>
             <p
               className={
                 darkMode
@@ -80,12 +86,18 @@ const Home = () => {
             <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 <a
-                  className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
+                  className="w-full flex gap-3 items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                   href={PDF}
                   download={"Gaurav_Singh_Resume.pdf"}
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => {
+                    window.open(
+                      "https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view?usp=share_link"
+                    );
+                  }}
                 >
+                  <FaDownload size={25} />
                   <p style={{ fontSize: "26px" }}>Resume</p>
                 </a>
               </div>
@@ -97,18 +109,18 @@ const Home = () => {
             style={
               darkMode
                 ? {
-                    mt: "50px",
-                    height: "450px",
+                    height: "440px",
                     width: "400px",
                     borderRadius: "48.5%",
                     border: "3px solid black",
+                    mb: "10px",
                   }
                 : {
-                    mt: "50px",
-                    height: "450px",
+                    height: "440px",
                     width: "400px",
                     borderRadius: "48.5%",
                     border: "3px solid white",
+                    mb: "10px",
                   }
             }
             variants={{
