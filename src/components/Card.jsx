@@ -2,6 +2,16 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
+import {
+  SiCss3,
+  SiHtml5,
+  SiJavascript,
+  SiReact,
+  SiChakraui,
+  SiRedux,
+  SiFirebase,
+  SiReactrouter,
+} from "react-icons/si";
 
 const Card = () => {
   return (
@@ -37,20 +47,28 @@ const Card = () => {
           Teck-stack
         </h5>
         <div style={{ display: "flex", justifyContent: "space-between" }}>
-          <p class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
-            React-JS
+          <p class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+            <SiReact color="#04D8FE" />
+            React
           </p>
-          <p class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+          <p class=" hidden lg:flex inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+            <SiJavascript color="yellow" />
             JavaScript
           </p>
-          <p class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+          <p class="hidden lg:flex inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+            <SiHtml5 color="#e34c26" />
             HTML
           </p>
           {/* <p class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
             CSS
           </p> */}
-          <p class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
-            Fire-Base
+          <p class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+            <SiCss3 color="#264de4" />
+            CSS
+          </p>
+          <p class="inline-flex gap-2 text-center items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+            <SiRedux color="purple" />
+            Redux
           </p>
         </div>
         <div
