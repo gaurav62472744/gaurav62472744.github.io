@@ -7,7 +7,11 @@ const About = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return (
-    <div id="about" className={darkMode === true ? "bg-white" : "bg-gray-900"}>
+    <div
+      id="about"
+      style={{ fontFamily: "Philosopher" }}
+      className={darkMode === true ? "bg-white" : "bg-gray-900"}
+    >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-24 pb-12">
         <h2
           className={
@@ -43,7 +47,7 @@ const About = () => {
               ⚡I'm definitely looking for better, and more importantly, ethical
               and accessible ways to solve common day-to-day problems.
             </p>
-            {/* <p
+            <p
               className={
                 darkMode
                   ? "mt-4 text-xl text-justify text-gray-500"
@@ -52,7 +56,7 @@ const About = () => {
             >
               ⚡I enjoy developing websites and a keen interest in solving
               problems and coming up with effective solutions.
-            </p> */}
+            </p>
             <p
               className={
                 darkMode

@@ -51,7 +51,11 @@ const Navbar = () => {
             ? "bg-white border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
             : "bg-gray-700 border-gray-200 z-50 shadow-lg md:px-8 px-1 fixed w-full top-0"
         }
-        style={darkMode ? {} : { background: "#091618" }}
+        style={
+          darkMode
+            ? { fontFamily: "Philosopher" }
+            : { background: "#091618", fontFamily: "Philosopher" }
+        }
       >
         <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
           <div className="flex items-center cursor-pointer">
@@ -63,7 +67,7 @@ const Navbar = () => {
                   : "text-xl font-medium text-decoration-none whitespace-nowrap text-white"
               }
             >
-              <p style={{ fontFamily: "sans-serif" }}>Gaurav Singh</p>
+              <p style={{ fontFamily: "Philosopher" }}>Gaurav Singh</p>
             </a>
           </div>
           <div class="hidden justify-between items-center w-full md:flex md:w-auto ">

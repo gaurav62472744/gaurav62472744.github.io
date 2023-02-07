@@ -7,7 +7,7 @@ import Skills from "./views/Skills";
 import Projects from "./views/Projects";
 import LoadingScreen from "./components/LoadingScreen";
 import { ThemeProvider } from "./themeProvider";
-
+import "./App.css";
 // import Skills from "./views/Skills";
 
 function App() {

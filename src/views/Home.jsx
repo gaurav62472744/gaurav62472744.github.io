@@ -19,12 +19,16 @@ const Home = () => {
         style={
           darkMode
             ? {
-                backgroundImage: `url('https://wallpaperaccess.com/full/104815.jpg')`,
+                // backgroundImage: `url('https://wallpaperaccess.com/full/104815.jpg')`,
+                backgroundColor: "#bddee7",
                 backgroundSize: "cover",
+                fontFamily: "Philosopher",
               }
             : {
-                backgroundImage: `url('https://www.teahub.io/photos/full/178-1780190_dark-clouds-with-moon.jpg')`,
+                // backgroundImage: `url('https://www.teahub.io/photos/full/178-1780190_dark-clouds-with-moon.jpg')`,
+                backgroundColor: "#37435b",
                 backgroundSize: "cover",
+                fontFamily: "Philosopher",
               }
         }
       >
@@ -34,7 +38,7 @@ const Home = () => {
         >
           <div
             className="sm:text-center  lg:text-left"
-            fontFamily={"Neue-Helvetica, Helvetica, Arial, sans-serif"}
+            fontFamily={"Philosopher"}
           >
             <div className="sm:mt-100px">
               <h1

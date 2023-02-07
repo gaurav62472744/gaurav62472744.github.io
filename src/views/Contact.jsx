@@ -13,7 +13,11 @@ const Contact = () => {
           ? "bg-gray-100  md:h-screen"
           : "bg-black  text-white md:h-screen"
       }
-      style={darkMode ? {} : { background: "#091618" }}
+      style={
+        darkMode
+          ? { fontFamily: "Philosopher" }
+          : { background: "#091618", fontFamily: "Philosopher" }
+      }
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">
         <h2 className="text-5xl font-bold px-4 md:px-0 text-center z-0">
@@ -116,17 +120,17 @@ const Contact = () => {
               +91 8285631499
             </a> */}
             <h1 className="text-3xl font-bold">Email</h1>
-            <a href="hello" className="mb-12 mt-3 font-semibold text-blue-700 ">
+            <a href="hello" className="mb-12 font-semibold text-blue-700 ">
               anu62472744@gmail.com
             </a>
             <h1 className="text-3xl font-bold">Mobile</h1>
-            <a href="hello" className="mb-12 mt-3 font-semibold text-blue-700 ">
+            <a href="hello" className="mb-12  font-semibold text-blue-700 ">
               +91 9099745122
             </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="hello"
-              className="mt-3  mb-12 md:text-right font-semibold text-blue-700 "
+              className="  mb-12 md:text-right font-semibold text-blue-700 "
             >
               Surat, Gujarat
               <br />
@@ -138,7 +142,7 @@ const Contact = () => {
                 <a
                   href={el.link}
                   target="_blank"
-                  className="md:ml-6 md:mr-0 mr-6 cursor-pointer mt-3 hover:scale-125 flex flex-col justify-center items-center"
+                  className="md:ml-6 md:mr-0 mr-6 cursor-pointer  hover:scale-125 flex flex-col justify-center items-center"
                 >
                   <img alt="" src={el.url} width="40px" height="40px" />
                   {/* <p className="text-md mt-2 hover:hidden">{el.name}</p> */}

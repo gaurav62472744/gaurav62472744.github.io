@@ -12,6 +12,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
+      style={{ fontFamily: "Philosopher" }}
       className={darkMode ? "bg-white text-black" : "bg-gray-900 text-white"}
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4  pt-24 pb-12">
