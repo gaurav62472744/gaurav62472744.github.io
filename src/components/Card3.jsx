@@ -61,17 +61,17 @@ const Card3 = () => {
           <a
             href="https://venerable-beignet-fdbc14.netlify.app/"
             target="_blank"
-            class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            class="inline-flex gap-2 items-center py-2 px-3 text-lg font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
-            <FaExternalLinkAlt />
+            <FaExternalLinkAlt color="black" />
             Demo Link
           </a>
           <a
             href="https://github.com/Shalini1908/-faithful-gun-126"
             target="_blank"
-            class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
+            class="inline-flex gap-2 items-center py-2 px-3 text-lg font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
-            <BsGithub />
+            <BsGithub color="black" />
             Github
           </a>
         </div>

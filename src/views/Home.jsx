@@ -53,16 +53,13 @@ const Home = () => {
                 <span className=" text-blue-500 z-0 lg:inline">
                   <Typical
                     steps={[
-                      "Front End Develper",
-                      2000,
-                      "Full Stack Developer",
-                      2000,
                       "Front End Developer",
-                      3000,
+                      2000,
                       "Full Stack Developer",
-                      3000,
+                      1000,
                     ]}
-                    loop={20}
+                    loop={Infinity}
+                    wrapper="p"
                   />
                 </span>
               </h1>
@@ -103,7 +100,7 @@ const Home = () => {
                   }}
                 >
                   <FaDownload size={25} />
-                  <p style={{ fontSize: "26px" }}>Resume</p>
+                  <p style={{ fontSize: "23px" }}>Resume</p>
                 </a>
               </div>
             </div>

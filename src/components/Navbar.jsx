@@ -3,6 +3,7 @@ import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
+import PDF from "../assets/Gaurav_Singh_Resume.pdf";
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
@@ -57,7 +58,7 @@ const Navbar = () => {
             : { background: "#091618", fontFamily: "Philosopher" }
         }
       >
-        <div className="flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
+        <div className="  flex justify-between items-center py-2 md:py-4 md:px-2 pl-2 mx-auto">
           <div className="flex items-center cursor-pointer">
             <a
               href="/"
@@ -70,7 +71,7 @@ const Navbar = () => {
               <p style={{ fontFamily: "Philosopher" }}>Gaurav Singh</p>
             </a>
           </div>
-          <div class="hidden justify-between items-center w-full md:flex md:w-auto ">
+          <div class="hidden justify-between items-center w-full lg:flex lg:w-auto ">
             <ul
               class={
                 "flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-md md:font-medium"
@@ -93,18 +94,26 @@ const Navbar = () => {
                   </Link>
                 </li>
               ))}
-              {/* <li>
+              <li>
                 <a
+                  href={PDF}
+                  download={"Gaurav_Singh_Resume.pdf"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => {
+                    window.open(
+                      "https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view?usp=share_link"
+                    );
+                  }}
                   className={
                     darkMode
                       ? "block py-2 px-3 text-black hover:bg-blue-500 hover:text-white rounded-md"
                       : "block py-2 px-3 text-white hover:bg-blue-500 hover:text-black rounded-md"
                   }
-                  href="https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view"
                 >
                   Resume
                 </a>
-              </li> */}
+              </li>
             </ul>
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
@@ -123,7 +132,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex md:hidden items-center">
+          <div className="flex lg:hidden items-center">
             <div onClick={() => toggleTheme()}>
               {darkMode ? (
                 <img
@@ -160,11 +169,11 @@ const Navbar = () => {
             exit={{ x: 200, transition: { type: "spring" } }}
             className={
               darkMode
-                ? "bg-white py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
-                : "bg-black py-2 px-2 md:p-0 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
+                ? "bg-white py-2 px-2 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
+                : "bg-black py-2 px-2 z-50 fixed top-16 mt-2 rounded-lg shadow-lg right-2 block w-40"
             }
           >
-            <ul class="md:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
+            <ul class="lg:hidden md:flex-row md:space-y-8 md:mt-0 md:text-md md:font-medium">
               {links.map((el) => (
                 <Link
                   to={el.route}
@@ -181,18 +190,18 @@ const Navbar = () => {
                   <li>{el.name}</li>
                 </Link>
               ))}
-              {/* <li>
+              <li>
                 <a
                   className={
                     darkMode
-                      ? "block py-2 px-3 text-black hover:bg-blue-500 hover:text-white rounded-md"
-                      : "block py-2 px-3 text-white hover:bg-blue-500 hover:text-black rounded-md"
+                      ? "block py-2 px-3 text-black font-semibold hover:bg-blue-500 hover:text-white rounded-md"
+                      : "block py-2 px-3 text-white font-semibold hover:bg-blue-500 hover:text-black rounded-md"
                   }
                   href="https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view"
                 >
                   Resume
                 </a>
-              </li> */}
+              </li>
             </ul>
           </motion.div>
         )}
