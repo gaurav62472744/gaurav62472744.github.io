@@ -90,26 +90,28 @@ const Skills = () => {
               username="gaurav62472744"
             />
           </div>
-          <img
-            style={{
-              margin: "auto",
-              textAlign: "center",
-              marginTop: "60px",
-              border: "1px solid grey",
-            }}
-            src="https://github-readme-streak-stats.herokuapp.com/?user=gaurav62472744"
-            alt="streak"
-          />
-          <img
-            style={{
-              margin: "auto",
-              textAlign: "center",
-              marginTop: "60px",
-              border: "1px solid grey",
-            }}
-            src="https://github-readme-stats-eight-theta.vercel.app/api?username=gaurav62472744&show_icons=true&include_all_commits=true&count_private=true"
-            alt=""
-          />
+          <div className="lg:flex flex-wrap mt-8 flex flex-wrap justify-between ">
+            <img
+              style={{
+                margin: "auto",
+                textAlign: "center",
+                marginTop: "60px",
+                border: "1px solid grey",
+              }}
+              src="https://github-readme-streak-stats.herokuapp.com/?user=gaurav62472744"
+              alt="streak"
+            />
+            <img
+              style={{
+                margin: "auto",
+                textAlign: "center",
+                marginTop: "60px",
+                border: "1px solid grey",
+              }}
+              src="https://github-readme-stats-eight-theta.vercel.app/api?username=gaurav62472744&show_icons=true&include_all_commits=true&count_private=true"
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </div>

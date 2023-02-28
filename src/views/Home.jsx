@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 // import cloud from "../assets/cloudBg.png";
 // import cloudDark from "../assets/cloudDark.png";
 import { FaDownload } from "react-icons/fa";
-import PDF from "../assets/Gaurav_Singh_Resume.pdf";
+import PDF from "../assets/fp06_179-Gaurav-Singh-Resume.pdf";
 
 const Home = () => {
   const theme = useContext(ThemeContext);
@@ -90,12 +90,12 @@ const Home = () => {
                 <a
                   className="w-full flex gap-3 items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                   href={PDF}
-                  download={"Gaurav_Singh_Resume.pdf"}
+                  download={"fp06_179-Gaurav-Singh-Resume.pdf"}
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view?usp=share_link"
+                      "https://drive.google.com/file/d/1i-PHOHNb3i7-qjBABX9MZ2JdpkUPz9Fc/view?usp=share_link"
                     );
                   }}
                 >
@@ -111,15 +111,15 @@ const Home = () => {
             style={
               darkMode
                 ? {
-                    height: "440px",
-                    width: "400px",
+                    height: "400px",
+                    width: "380px",
                     borderRadius: "48.5%",
                     border: "3px solid black",
                     mb: "10px",
                   }
                 : {
-                    height: "440px",
-                    width: "400px",
+                    height: "400px",
+                    width: "380px",
                     borderRadius: "48.5%",
                     border: "3px solid white",
                     mb: "10px",
@@ -136,7 +136,7 @@ const Home = () => {
               hidden: { opacity: 1, y: 80 },
             }}
             src={
-              "https://user-images.githubusercontent.com/110033104/211527567-5388e558-fc89-46b5-9602-50ebacb7e133.png"
+              "https://user-images.githubusercontent.com/110033104/221783845-d7c57257-fd34-4403-aaab-9931fe7e45fd.png"
             }
             alt=""
             className="md:w-3/6 mt-10"

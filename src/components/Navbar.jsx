@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
-import PDF from "../assets/Gaurav_Singh_Resume.pdf";
+import PDF from "../assets/fp06_179-Gaurav-Singh-Resume.pdf";
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
@@ -102,7 +102,7 @@ const Navbar = () => {
                   rel="noopener noreferrer"
                   onClick={() => {
                     window.open(
-                      "https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view?usp=share_link"
+                      "https://drive.google.com/file/d/1i-PHOHNb3i7-qjBABX9MZ2JdpkUPz9Fc/view?usp=share_link"
                     );
                   }}
                   className={
@@ -197,7 +197,7 @@ const Navbar = () => {
                       ? "block py-2 px-3 text-black font-semibold hover:bg-blue-500 hover:text-white rounded-md"
                       : "block py-2 px-3 text-white font-semibold hover:bg-blue-500 hover:text-black rounded-md"
                   }
-                  href="https://drive.google.com/file/d/1pn4zSo8nAFurcvq1DALY5tLMBKGeYwEC/view"
+                  href="https://drive.google.com/file/d/1i-PHOHNb3i7-qjBABX9MZ2JdpkUPz9Fc/view?usp=share_link"
                 >
                   Resume
                 </a>

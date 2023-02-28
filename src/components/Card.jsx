@@ -36,7 +36,7 @@ const Card = () => {
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
-            Sara.com (Clone of Zara.com)
+            Zara.com
           </h5>
         </a>
         <p class="mb-3 font-normal text-white dark:text-gray-400">
