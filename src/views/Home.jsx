@@ -1,12 +1,8 @@
 import React, { useContext } from "react";
-// import heroBg from "../assets/webdev.svg";
 import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-// import { Link } from "react-scroll";
-// import cloud from "../assets/cloudBg.png";
-// import cloudDark from "../assets/cloudDark.png";
 import { FaDownload } from "react-icons/fa";
 import PDF from "../assets/fp06_179-Gaurav-Singh-Resume.pdf";
 
