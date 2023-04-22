@@ -7,10 +7,8 @@ import {
   SiHtml5,
   SiJavascript,
   SiReact,
-  SiChakraui,
   SiRedux,
-  SiFirebase,
-  SiReactrouter,
+  SiMongodb,
 } from "react-icons/si";
 
 const Card = () => {
@@ -25,23 +23,23 @@ const Card = () => {
       style={{ background: "#091618" }}
       class="max-w-xl bg-white rounded-lg border border-gray-200 shadow-lg dark:bg-gray-800 dark:border-gray-700 my-8"
     >
-      <a href="https://scarce-pocket-8679.vercel.app/" target="_blank">
+      <a href="https://lap-den.vercel.app/" target="_blank">
         <img
           style={{ padding: "20px" }}
           class="rounded-t-lg w-full"
-          src="https://user-images.githubusercontent.com/110033104/210264706-b79c7957-1c06-49c0-b68f-73d78de039ab.png"
+          src="https://user-images.githubusercontent.com/99709583/221478258-f9293abc-a8d6-4ded-96a8-417af279f029.png"
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="#">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
-            Zara.com
+            Dell.com
           </h5>
         </a>
         <p class="mb-3 font-normal text-white dark:text-gray-400">
-          Zara is one of the largest international fashion companies. It belongs
-          to Inditex, one of the world's largest distribution groups.
+          Dell.com is an e-commerce website where users can buy laptops,
+          desktops.
         </p>
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
           Teck-stack
@@ -51,18 +49,18 @@ const Card = () => {
             <SiReact color="#04D8FE" />
             React
           </p>
-          <p class=" hidden lg:flex inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
-            <SiJavascript color="yellow" />
-            JavaScript
+          <p class=" inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+            <SiMongodb color="green" />
+            Mongodb
           </p>
           <p class="hidden lg:flex inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
-            <SiHtml5 color="#e34c26" />
-            HTML
+            <SiJavascript color="yellow" />
+            Javascript
           </p>
           {/* <p class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
             CSS
           </p> */}
-          <p class="inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
+          <p class=" hidden lg:flex inline-flex gap-2 items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300">
             <SiCss3 color="#264de4" />
             CSS
           </p>
@@ -79,7 +77,7 @@ const Card = () => {
           }}
         >
           <a
-            href="https://scarce-pocket-8679.vercel.app/"
+            href="https://lap-den.vercel.app/"
             target="_blank"
             class="inline-flex gap-2 items-center py-2 px-3 text-lg font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-300 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >
@@ -87,7 +85,7 @@ const Card = () => {
             Demo Link
           </a>
           <a
-            href="https://github.com/gaurav62472744/scarce-pocket-8679"
+            href="https://github.com/abhayfaldu/Dell.com_clone"
             target="_blank"
             class="inline-flex  gap-2 items-center py-2 px-3 text-lg font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
           >

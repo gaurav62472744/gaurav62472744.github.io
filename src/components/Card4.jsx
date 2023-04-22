@@ -25,7 +25,7 @@ const Card4 = () => {
         />
       </a>
       <div class="p-5">
-        <a href="helo">
+        <a href="#">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">
             MeanBuy.com
           </h5>

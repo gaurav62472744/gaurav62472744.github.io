@@ -87,6 +87,8 @@ const Skills = () => {
                 padding: "15px",
                 color: "#3b82f6",
               }}
+             
+              
               username="gaurav62472744"
             />
           </div>

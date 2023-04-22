@@ -3,6 +3,8 @@ import Card from "../components/Card";
 import Card2 from "../components/Card2";
 import Card3 from "../components/Card3";
 import Card4 from "../components/Card4";
+import Card5 from "../components/Card5";
+import Card6 from "../components/Card6";
 import { ThemeContext } from "../themeProvider";
 
 const Projects = () => {
@@ -23,6 +25,8 @@ const Projects = () => {
           What I Built
         </h4>
         <div className="mt-8 flex justify-center gap-10 items-stretch flex-wrap ">
+          <Card5 />
+          <Card6 />
           <Card />
           <Card2 />
           <Card3 />

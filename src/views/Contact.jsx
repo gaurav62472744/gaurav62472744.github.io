@@ -1,10 +1,12 @@
 import React, { useContext } from "react";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  const notify = () => toast("Message Send Successfully");
   return (
     <div
       id="contact"
@@ -48,7 +50,7 @@ const Contact = () => {
                   Name
                 </label>
                 <input
-                  type="email"
+                  type="text"
                   id="name"
                   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                   placeholder="Enter your name"
@@ -101,12 +103,16 @@ const Contact = () => {
               </div>
               <div className="flex justify-between ">
                 <div className="underline">
-                  <a href="mailto:devendra.singh248124@gmail.com">
+                  <a href="mailto:anu62472744@gmail.com">
                     Send me email directly
                   </a>
                 </div>
-                <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:devendra.singh248124@gmail.com">Submit</a>
+                <button
+                  className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400"
+                  onClick={notify}
+                >
+                  <a href="mailto:anu62472744@gmail.com">Submit</a>
+                  <Toaster />
                 </button>
               </div>
             </form>
